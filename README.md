@@ -22,8 +22,10 @@ An interactive e-commerce web platform for K-pop fans in South Africa, featuring
 * **Image Gallery Lightbox:** Implemented interactive JavaScript-driven modals to display high-resolution item banners gracefully upon click.
 * **SEO Optimizations:** Configured semantic metadata, explicit image alternative descriptions, automated crawl configurations (`robots.txt`), and structured sitemaps.
 
-## Deployment
+## Deployment of website
 Live Version: https://genuine-lebkuchen-e6455d.netlify.app
+
+github repo link
 https://github.com/Siviwe-Ndaliso/ViweWave-WEBSITE
 ---
 *Developed for IIE Web Development (2026)*
