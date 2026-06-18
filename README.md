@@ -23,7 +23,7 @@ An interactive e-commerce web platform for K-pop fans in South Africa, featuring
 * **SEO Optimizations:** Configured semantic metadata, explicit image alternative descriptions, automated crawl configurations (`robots.txt`), and structured sitemaps.
 
 ## Deployment
-Live Version: [Insert your Netlify or GitHub Pages link here once deployed!]
-
+Live Version: https://genuine-lebkuchen-e6455d.netlify.app
+https://github.com/Siviwe-Ndaliso/ViweWave-WEBSITE
 ---
 *Developed for IIE Web Development (2026)*
