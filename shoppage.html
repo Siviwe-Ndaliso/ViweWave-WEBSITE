@@ -7,32 +7,32 @@
     <title>Shop - ViweWave K-pop Store</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <meta name="description" content="Shop K-pop albums, hoodies, posters, and merch from BTS, BLACKPINK, Stray Kids and more in South Africa. Fast delivery and fan-focused store.">
 </head>
 
 <body>
 
-<!-- HEADER -->
 <header>
     <h1>Shop Your K-pop Dreams 💖</h1>
 
     <nav>
-        <h3>
             <a href="index.html">Home</a> |
             <a href="productspage.html">Products</a> |
             <a href="shoppage.html">Shop</a> |
             <a href="shopping cart and checkout.html">Cart</a> |
             <a href="events and news section.html">Events & News</a> |
-            <a href="about.html">About</a>
-        </h3>
+            <a href="about.html">About</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a> |
     </nav>
 </header>
 
-<!-- BANNER -->
 <div class="banner-container">
     <img src="ViweWave Images/Vertical ViweWave Banner.jpg" alt="ViweWave Banner">
 </div>
 
-<!-- WELCOME -->
 <section class="welcome-block">
     <h2>
         Welcome to <span>ViweWave’s K-pop store!</span>
@@ -40,94 +40,84 @@
     </h2>
 </section>
 
-<!-- TITLE -->
+<div class="search-container" style="max-width: 500px; margin: 20px auto; padding: 0 15px;">
+    <input type="text" id="productSearch" placeholder="Search for albums or merch... 🔍" 
+           style="width: 100%; padding: 12px 20px; border-radius: 25px; border: 2px solid #bc13fe; background: transparent; color: white; font-size: 1rem; outline: none; box-shadow: 0 0 10px rgba(188, 19, 254, 0.2);">
+</div>
+
 <h1 class="shop-title">Shop 🛍️</h1>
 
-<!-- PRODUCTS -->
 <main class="products-grid">
 
-    <!-- 1 -->
     <div class="product-card">
         <img src="ViweWave Images/Straykids banner.jpg" alt="Stray Kids Banner">
         <h3>Stray Kids Banner</h3>
         <p class="price">R450</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="Stray Kids Banner" data-price="450">Add to Cart</button>
     </div>
 
-    <!-- 2 -->
     <div class="product-card">
         <img src="ViweWave Images/BE bts album.jpg" alt="BTS BE Album">
         <h3>BTS - BE</h3>
         <p class="price">R500</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="BTS - BE" data-price="500">Add to Cart</button>
     </div>
 
-    <!-- 3 -->
     <div class="product-card">
         <img src="ViweWave Images/Bts Arirang Album.jpg" alt="BTS Arirang Album">
         <h3>BTS - Arirang</h3>
         <p class="price">R450</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="BTS - Arirang" data-price="450">Add to Cart</button>
     </div>
 
-    <!-- 4 -->
     <div class="product-card">
         <img src="ViweWave Images/Red Enhyphen banner.jpg" alt="ENHYPEN Red Banner">
         <h3>ENHYPEN Banner (Red)</h3>
         <p class="price">R480</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="ENHYPEN Banner (Red)" data-price="480">Add to Cart</button>
     </div>
 
-    <!-- 5 -->
     <div class="product-card">
         <img src="ViweWave Images/Enhyphen Banner.jpg" alt="ENHYPEN Banner">
         <h3>ENHYPEN Banner</h3>
         <p class="price">R480</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="ENHYPEN Banner" data-price="480">Add to Cart</button>
     </div>
 
-    <!-- 6 -->
     <div class="product-card">
         <img src="ViweWave Images/Blackpink Album.jpg" alt="BLACKPINK Album">
         <h3>BLACKPINK - The Album</h3>
         <p class="price">R520</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="BLACKPINK - The Album" data-price="520">Add to Cart</button>
     </div>
 
-    <!-- 7 -->
     <div class="product-card">
         <img src="ViweWave Images/Ice cream blackpink album.jpg" alt="BLACKPINK Ice Cream">
         <h3>BLACKPINK - Ice Cream</h3>
         <p class="price">R520</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="BLACKPINK - Ice Cream" data-price="520">Add to Cart</button>
     </div>
 
-    <!-- 8 -->
     <div class="product-card">
         <img src="ViweWave Images/Jump blackpink album.jpg" alt="BLACKPINK Jump">
         <h3>BLACKPINK - Jump</h3>
         <p class="price">R520</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="BLACKPINK - Jump" data-price="520">Add to Cart</button>
     </div>
 
-    <!-- 9 -->
     <div class="product-card">
         <img src="ViweWave Images/Straykids Album.jpg" alt="Stray Kids GO生">
         <h3>Stray Kids - GO生</h3>
         <p class="price">R460</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart" data-name="Stray Kids - GO生" data-price="460">Add to Cart</button>
     </div>
-
-    <!-- (rest continue same pattern...) -->
 
 </main>
 
-<!-- FOOTER TEXT -->
 <p class="footer-pitch-text">
     Ready to grab your merch? Start shopping now 🎶
 </p>
 
-<!-- FOOTER -->
 <footer>
     <p>Follow us on social media for the latest updates:</p>
 
