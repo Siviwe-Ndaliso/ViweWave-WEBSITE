@@ -1,7 +1,7 @@
 # ViweWave-WEBSITE
 ViweWave is a kpop store that is the ultimate destination for kpop fans.Its the place kpop fans can find the lastest news about their favorite idols, buy the newest merchandise and engage with other kpop fans.
-Submittted part 1 of the POE
-
+Submittted part 1 of the POE which focused on using html only
+submitted part 2 of poe which focused on adding css to the website
 readme update when adding js 
 # ViweWave K-pop Store 💖
 
@@ -28,4 +28,24 @@ Live Version: https://genuine-lebkuchen-e6455d.netlify.app
 github repo link
 https://github.com/Siviwe-Ndaliso/ViweWave-WEBSITE
 ---
-*Developed for IIE Web Development (2026)*
+
+
+Reference List
+
+Flaticon, 2026. Free vector icons and stickers. Available at: https://www.flaticon.com/ [Accessed 19 June 2026].
+
+
+MDN Web Docs, 2026. JavaScript reference guide. Mozilla Developer Network. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript [Accessed 19 June 2026].
+
+
+Pinterest, 2026. Y2K aesthetic web design mood board. Available at: https://www.pinterest.com/ [Accessed 19 June 2026].
+
+
+
+W3Schools, 2026. CSS website layout tutorial. Available at: https://www.w3schools.com/css/ [Accessed 19 June 2026].
+
+
+
+W3Schools, 2026. HTML5 structural elements reference. Available at: https://www.w3schools.com/html/ [Accessed 19 June 2026].
+
+
